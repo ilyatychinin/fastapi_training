@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from Myapp.models import User, Post, users_list, posts
 from Myapp.data import router as data_router
 from Myapp.users import router as users_router
 
